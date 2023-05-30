@@ -1,0 +1,5 @@
+version: 1
+buildCommand:
+  - npm install --frozen-lockfile
+  - npm build
+startCommand: npm start:prod
